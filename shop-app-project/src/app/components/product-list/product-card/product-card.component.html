@@ -1,11 +1,15 @@
 <div class="box">
+    <img class="productPicture" src="../../../../assets/productImg/{{product.picture}}" alt="../../../@shared/data/productImg/{{product.picture}}"/>
     <ul>
-        <img src="product.picture" alt="{{product.name}} img">
-        <li class="productName">{{product.name}}</li>
+        <h3 class="productName">{{product.name}}</h3>
         <h4>Specifications</h4>
-        <li>{{product.specifications.color}}</li>
-        <li>{{product.specifications.weight}}</li>
-        <li>{{product.specifications.storage}}</li>
-        <li>{{product.specifications.price}}</li>
+        <li>color: {{product.specifications.color}}</li>
+        <li>weight: {{product.specifications.weight}}</li>
+        <li>storage: {{product.specifications.storage}}</li>
+        <li>Price: {{product.specifications.price}}</li>
     </ul>
+
+    <div class="buttonDiv">
+        <button class="button">Add to cart</button>
+    </div>
 </div>

@@ -1,6 +1,5 @@
 import Product from "src/app/types/Product";
 
-
 export const products: Product[] = [
   {
     id: 1,
@@ -11,7 +10,7 @@ export const products: Product[] = [
       storage: "256GB",
       price: "1000$"
     },
-    picture: "iphone/phone1.png"
+    picture: "iphone12.png"
   },
   {
     id: 2,
@@ -22,7 +21,7 @@ export const products: Product[] = [
       storage: "N/A",
       price: "200$"
     },
-    picture: "airpods/airpods1.png"
+    picture: "airpods.png"
   },
   {
     id: 3,
@@ -33,7 +32,7 @@ export const products: Product[] = [
       storage: "512GB",
       price: "900$"
     },
-    picture: "s22/s22-1.png"
+    picture: "samsung22.png"
   },
   {
     id: 4,
@@ -44,7 +43,7 @@ export const products: Product[] = [
       storage: "256GB",
       price: "950$"
     },
-    picture: "note10/note10-1.png"
+    picture: "samsungnote10.png"
   },
   {
     id: 5,
@@ -55,6 +54,6 @@ export const products: Product[] = [
       storage: "256GB",
       price: "1300$"
     },
-    picture: "iphone14/iphone14-1.png"
+    picture: "iphone14.png"
   }
 ]
