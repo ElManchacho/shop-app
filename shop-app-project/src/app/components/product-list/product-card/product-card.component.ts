@@ -14,7 +14,6 @@ export class ProductCardComponent implements OnInit {
 
   hover(value: boolean) {
     this.hovered=value
-    console.log("child",value)
     this.hoverEvent.emit(value);
   }
 
