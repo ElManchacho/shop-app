@@ -1,3 +1,7 @@
-<div class="productList" *ngFor="let product of productList">
-    <app-product-card [product]="product"></app-product-card>
+<div class="productList">
+    <table>
+        <td *ngFor="let product of productList">
+            <app-product-card [product]="product"></app-product-card>
+        </td>
+    </table>
 </div>

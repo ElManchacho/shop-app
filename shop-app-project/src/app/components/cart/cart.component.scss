@@ -1,0 +1,20 @@
+.tableCart{
+    margin-top: 2%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    margin-left:2%;
+    margin-right:2%;
+    .cartItem{
+        width:12%;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        text-align: center;
+    }
+}
+
+.orderTable{
+    margin-left: 2%;
+}

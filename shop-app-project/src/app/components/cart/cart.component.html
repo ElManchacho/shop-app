@@ -1,1 +1,72 @@
-<p>cart works!</p>
+<p *ngIf="cart[0]==null">
+    Your cart is empty
+</p>
+<div *ngIf="cart[0]!=null">
+    <table class="tableCart">
+        <th>
+            Product
+        </th>
+        <th>
+            Picture
+        </th>
+        <th>
+            Specifications
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Modify
+        </th>
+        
+        <tr *ngFor="let product of productList">
+            <td class="cartItem" *ngIf="product.number>0">
+                {{product.name}}
+            </td>
+            <td class="cartItem" *ngIf="product.number>0">
+                <img class="productPicture" src="../../../../assets/productImg/{{product.picture}}" alt="../../../@shared/data/productImg/{{product.picture}}"/>
+            </td>
+            <td class="cartItem" *ngIf="product.number>0">
+                color: {{product.specifications.color}} <br/> <br/>
+                weight: {{product.specifications.weight}} <br/> <br/>
+                storage: {{product.specifications.storage}} <br/> <br/>
+                Price: {{product.specifications.price}}
+            </td>
+            <td class="cartItem" *ngIf="product.number>0">
+                {{product.number}}
+            </td>
+            <td class="cartItem" *ngIf="product.number>0">
+                {{product.total}} $
+            </td>
+            <td class="cartItem" *ngIf="product.number>0">
+                <button (click)="addArticle(product.id)">+</button>
+                &nbsp;
+                <button (click)="removeArticle(product.id)">-</button>
+            </td>
+        </tr>
+    </table>
+
+    <hr/>
+
+    <br/>
+    <br/>
+    <br/>
+    <table class="orderTable">
+        <tr>
+            <h3>Your order : </h3>
+        </tr>
+        <tr *ngFor="let product of productList">
+            <div *ngIf="product.number>0">
+                {{product.id}} - {{product.number}} {{product.name}} : {{product.total}} $
+            </div>
+        </tr>
+        <hr/>
+        <tr>
+            Total = {{productTotal}}$
+        </tr>
+    </table>
+
+</div>

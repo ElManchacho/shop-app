@@ -7,18 +7,24 @@ import { ProfileComponent } from './components/profile/profile.component';
 
 const routes: Routes = [
   {
-    path:'home',
-    component:MainPageComponent
-  },{
-    path:'profile',
-    component:ProfileComponent
-  },{
-    path:'cart',
-    component:CartComponent
+    path: '',
+    component: MainPageComponent
   },
   {
-    path:'**',
-    component:PageNotFoundComponent
+    path: 'home',
+    component: MainPageComponent
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent
+  },
+  {
+    path: 'cart',
+    component: CartComponent
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   }
 ]
 @NgModule({
