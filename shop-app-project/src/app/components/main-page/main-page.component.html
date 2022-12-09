@@ -1,2 +1,3 @@
-<h1 class="title">Welcome to myShop !</h1>
-<app-product-list></app-product-list>
+<h1 class="title" *ngIf="hovered==false">Welcome to myShop !</h1>
+<h1 class="title2" *ngIf="hovered==true">Lot of surprises are waiting for you</h1>
+<app-product-list (hoverEvent)="hoverParent($event)"></app-product-list>

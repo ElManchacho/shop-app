@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import Product from 'src/app/types/Product';
 
 @Component({
@@ -7,6 +7,16 @@ import Product from 'src/app/types/Product';
   styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent implements OnInit {
+
+  hovered:boolean=false
+
+  @Output() hoverEvent = new EventEmitter<boolean>();
+
+  hover(value: boolean) {
+    this.hovered=value
+    console.log("child",value)
+    this.hoverEvent.emit(value);
+  }
 
   @Input() product!:Product
 

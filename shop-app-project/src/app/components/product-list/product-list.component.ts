@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { products } from 'src/app/@shared/data/products';
 import Product from 'src/app/types/Product';
 
@@ -9,10 +9,16 @@ import Product from 'src/app/types/Product';
 })
 export class ProductListComponent implements OnInit {
 
+  @Output() hoverEvent = new EventEmitter<boolean>();
+
   productList:Product[]
 
   constructor() {
     this.productList = products
+  }
+
+  hoverParent(hovered:any){
+    this.hoverEvent.emit(hovered);
   }
 
   ngOnInit(): void {

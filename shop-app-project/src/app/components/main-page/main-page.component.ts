@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
+  hovered:boolean=false
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  hoverParent(childHovered:any){
+    this.hovered = childHovered;
   }
 
 }

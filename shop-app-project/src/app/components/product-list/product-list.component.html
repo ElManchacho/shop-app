@@ -1,7 +1,7 @@
 <div class="productList">
     <table>
         <td *ngFor="let product of productList">
-            <app-product-card [product]="product"></app-product-card>
+            <app-product-card [product]="product" (hoverEvent)="hoverParent($event)"></app-product-card>
         </td>
     </table>
 </div>
