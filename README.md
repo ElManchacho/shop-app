@@ -10,7 +10,7 @@ Cette personne n'avait en tout état de cause pas eu le temps de préparer son c
 
 Je n'irai pas jusqu'à affirmer que le professeur n'avait aucune qualification pour enseigner cette techno (mais je le pense).
 
-Par exemple, nous avons passé une journée à installer Node et le CLI Angular, et ne faisait que d'appeler la techno "Angulaire" (et l'écrire comme tel dans son PPT) car il nous lisait la doc officielle passée dans Google traduction.
+Par exemple, nous avons passé une journée à installer Node et le CLI Angular, et le profresseur ne faisait qu'appeler la techno "Angulaire" (et l'écrire comme tel dans son PPT) car il nous lisait la doc officielle passée dans Google traduction.
 
 En bref : l'EFREI (mon école pour ce TP) n'a pas été à la hauteur pour ce cours (et bien d'autre mais vous ne le verrez pas ici).
 
