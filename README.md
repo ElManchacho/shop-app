@@ -7,7 +7,7 @@ Rendu le 09/12/2022 dans le cadre du cours d'Angular du Master 2 de Web Dev Mana
 Je ne conseille à personne de faire un site de ce type : le cours était donnée par quelqu'un qui avait été comissionné 3 jours plus tôt (pas de professeur avant ce délai).
 Cette personne n'avait en tout état de cause pas eu le temps de préparer son cours ni son TP.
 Je n'irai pas jusqu'à affirmer que le professeur n'avait aucune qualification pour enseigner cette techno (mais je le pense).
-En bref : l'EFREI (mon école pour ce TP) n'a pas été à la heuteur pour ce cours (et bien d'autre mais vous ne le verrez pas ici).
+En bref : l'EFREI (mon école pour ce TP) n'a pas été à la hauteur pour ce cours (et bien d'autre mais vous ne le verrez pas ici).
 
 # Explications
 
