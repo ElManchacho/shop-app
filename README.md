@@ -4,11 +4,11 @@ Rendu le 09/12/2022 dans le cadre du cours d'Angular du Master 2 de Web Dev Mana
 
 # A ma décharge
 
-Je ne conseille à personne de faire un site de ce type : le cours était donnée par quelqu'un qui avait été comissionné 3 jours plus tôt (pas de professeur avant ce délai).
+Je ne conseille à personne de faire un site de ce type : le cours était donné par quelqu'un qui avait été comissionné 3 jours plus tôt (pas de professeur avant ce délai).
 
 Cette personne n'avait en tout état de cause pas eu le temps de préparer son cours ni son TP.
 
-Je n'irai pas jusqu'à affirmer que le professeur n'avait aucune qualification pour enseigner cette techno (mais je le pense).
+Je n'irai cependant pas jusqu'à affirmer que le professeur n'avait aucune qualification pour enseigner cette techno (mais le doute est permis).
 
 Par exemple, nous avons passé une journée à installer Node et le CLI Angular, et le profresseur ne faisait qu'appeler la techno "Angulaire" (et l'écrire comme tel dans son PPT) car il nous lisait la doc officielle passée dans Google traduction.
 
